@@ -68,6 +68,30 @@ a {
     line-height: 1.66667; /* 166.667% */
 }
 
+.block-act {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.block-act__bg-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    color: #575F66;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+}
+
+.block-act__bg-icon:last-child {
+    background-color: #2E80CE;
+    color: #fff;
+    border: 1px solid #2E80CE;
+}
+
 /* =================== Header ===================  */
 .header {
     display: flex;
@@ -501,4 +525,77 @@ a {
 
 .about__btn {
     margin-top: 20px;
+}
+
+/* =================== Team ===================  */
+.team {
+    margin-top: 30px;
+    padding: 70px 0;
+}
+
+.team__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__heading {
+    text-align: center;
+}
+
+.team__btn {
+    margin-top: 38px;
+}
+
+.team__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.team-item__bg-avatar {
+    display: flex;
+    padding: 28px 4px 0;
+    border-radius: 6px;
+    background-color: #eaf6ff;
+}
+
+.team-item__avatar {
+    width: 262px;
+    height: 290px;
+    object-fit: cover;
+}
+
+.team-item__name {
+    margin-top: 12px;
+    color: #10375c;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.team-item__from {
+    color: #575f66;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.85714;
+}
+
+.team__block-act {
+    margin-top: 38px;
+}
+
+/* =================== Install ===================  */
+.install {
+    margin-top: 100px;
+    padding-top: 95px;
+}
+
+.install__content {
+    
 }
