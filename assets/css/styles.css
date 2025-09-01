@@ -768,4 +768,24 @@ a {
     background: #f6fbff;
 }
 
+.appointment__desc {
+    position: relative;
+    margin-top: 38px;
+    width: 617px;
+    text-align: center;
+}
 
+.appointment__desc::before {
+    position: absolute;
+    top: -18px;
+    left: calc(50% - 68px);
+    content: "";
+    display: inline-block;
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+}
+
+.appointment__btn {
+    margin-top: 20px;
+}
